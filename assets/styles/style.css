@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+.popup-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(13,29,48);
+    background-color: rgba(13,29,48, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    letter-spacing: 0.25em;
+}
+  
+.popup-menu-content {
+    position: relative;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+  
+.popup-menu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+    display: block;
+    transition: 0.5s;
+}
+  
+.popup-menu a:hover, .popup-menu a:focus {
+    color: gainsboro;
+}
+  
+.popup-menu .closebtn {
+    position: absolute;
+    top: 0.35em;
+    right: 0.75em;
+    font-size: 52px;
+}
+  
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+main {
+    padding: 19px;
+    overflow: auto;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2, h3, h4 {
+    color: #032387;
+}
+
+.big {
+    font-size: 48px;
+    line-height: 1em;
+}
+
+blockquote {
+    letter-spacing: 1px;
+}
+
+img {
+    border-radius: 0.3em;
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+}
+
+header {
+    display: inline;
+}
+
+.header-logo {
+    float: left;
+    padding: 0 19px;
+}
+
+.header-menu {
+    float: left;
+}
+
+.logox {
+    width: 205px;
+    margin-top: 5px;
+}
+
+.ikonmenu {
+    color: #31353c;
+    float: right;
+    display: none;
+    font-size: 23px;
+    padding: 9px 19px;
+}
+
+.ikonmenu a:hover {
+    color: grey;
+}
+
+nav {
+    background-color: whitesmoke;
+    height: 67px;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    transition: all 0.35s;
+    overflow: hidden;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,0.17);
+}
+
+nav a {
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #032387;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 32px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 264px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-box {
+    width: 91%;
+    object-position: center;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 160px;
+}
+
+.kontak {
+    font-size: medium;
+    text-align: center;
+}
+
+table.baris {
+    margin: 0 auto;
+    font-size: small;
+    text-align: left;
+    padding: 0.5em;
+    max-width: 97%;
+  }
+
+.card {
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.17);
+    border-radius: 5px;
+    padding: 7px 19px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.box {
+    border-left: 1px dotted gainsboro;
+    height: 95%;
+    padding: 5px 19px;
+    margin-top: 19px;
+}
+
+#vid {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.headline {
+    position: fixed;
+    bottom: 0;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    padding: 3.75em;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 0 3px 4px 0 rgba(0,0,0,0.5);
+  }
+
+.jumbotron {
+    height: 280px;
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 3ms ease-out;	
+    -moz-transition: all 3ms ease-out; 
+    transition: all 3ms ease-out; 
+    object-fit: cover;
+    object-position: center;
+    overflow-x: hidden;
+}
+
+.jumbotron:hover {
+    filter: grayscale(5%); 
+    -webkit-filter: grayscale(5%);
+}
+
+#mukaddimah {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+#sub {
+    float: left;
+    width: 33%;
+    padding: 0.5em;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 19px;
+}
+
+th, td {
+	border-bottom: 1px dotted gainsboro;
+	padding: 0.5em;
+	vertical-align: middle;
+}
+
+footer {
+    padding: 19px;
+    color: gainsboro;
+    background-color: black;
+    text-align: center;
+    font-size: small;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .flexi {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2em 2em;
+    }
+    
+    .flexi li{
+        flex: auto;
+        width: 50%;
+        list-style: none;
+        line-height: 1.5em;
+        letter-spacing: 0.03em;
+        padding: 0 2em;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}

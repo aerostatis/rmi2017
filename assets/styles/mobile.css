@@ -1,0 +1,38 @@
+@media screen and (max-width: 960px) {
+    #content,
+    aside,
+    #sub {
+        width: 100%;
+        padding: 0;
+    }
+    .popup-menu a {
+        font-size: 19px
+    }
+        .popup-menu .closebtn {
+        font-size: 41px;
+        top: 0.15em;
+        right: 0.3em;
+    }
+
+    .ikonmenu {
+        display: block;
+    }
+    .logox {
+        width: 11em;
+        margin-top: 0.5em;
+    }
+    .header-menu {
+        display: none;
+    }
+    .flexi li{
+        list-style: none;
+        padding: 0 3em 0 0;
+        line-height: 1.5em;
+        letter-spacing: 0.03em;
+    }
+    .box {
+        border-top: 1px dotted gainsboro;
+        border-left: 0;
+        width: 100%;
+    }
+}
